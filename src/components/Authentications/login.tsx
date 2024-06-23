@@ -34,10 +34,10 @@ function Login(){
       console.log('Forgot Password clicked');
     };
   
-    const handleApplyMembership = () => {
-      // Handle apply for membership action
-      console.log('Apply for Membership clicked');
-    };
+    // const handleApplyMembership = () => {
+    //   // Handle apply for membership action
+    //   console.log('Apply for Membership clicked');
+    // };
 
     return(
         <>
