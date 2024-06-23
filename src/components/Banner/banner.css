@@ -1,0 +1,28 @@
+@import '../../App.css';
+
+.container{
+    background-color: var(--background-color);
+    margin-top: 40px;
+}
+
+.container video {
+    width: 100%;     /* Make the video fill the container width */
+    height: auto;    /* Adjust height proportionally */
+    max-height: 500px; /* example maximum height */
+    object-fit: cover; /* Optional: cover the container without distortion */
+    border-radius: 20px;
+}
+
+.btn-suggestion{
+    background-color: var(--primary-color);
+    color: #ffff;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+
+@media (max-width:767px) {
+     .banner-texts{
+        padding-top: 20px;
+     }
+}

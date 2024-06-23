@@ -1,0 +1,74 @@
+
+
+.heading-container {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer; /* To indicate it's hoverable */
+}
+
+.big-text {
+    font-size: 100px; /* Adjust as needed */
+    color: rgba(0, 0, 0, 0.43); /* Gray color */
+    margin: 0;
+    text-shadow: 3px 8px 4px rgb(159 150 150 / 55%); /* Add a shadow */
+    transition: opacity 0.5s; /* Transition for hiding */
+}
+
+.small-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px; /* Adjust as needed */
+    font-weight: 600;
+    color: var(--primary-color); /* Black color */
+    margin: 0;
+    transition: font-size 0.5s; /* Transition for font size change */
+}
+
+.heading-container:hover .big-text {
+    opacity: 0; /* Hide the big-text */
+}
+
+.heading-container:hover .small-text {
+    font-size: 50px; /* Increase the font size of small-text */
+}
+
+.about-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-img img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+
+.about-btn{
+    background-color: var(--primary-color);
+    color: #ffff;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+
+@media (max-width:767px) {
+    .big-text{
+        font-size: 18px;
+        display: none;
+    }
+
+    .small-text{
+        font-size: 23px;
+    }
+    .about-img img {
+        
+        width: 263px;
+      
+    }
+}

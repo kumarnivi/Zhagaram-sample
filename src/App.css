@@ -1,0 +1,32 @@
+
+
+:root {
+  --primary-color: #1F153D;
+  --secondary-color: #8B6DB3;
+  --background-color: #DED1F3;
+  --text-color: #2c3e50;
+  --footer-color: #AFA1D7;
+  --form-background: #AFA1D7;
+  --carucel-background: #8B6DB3;
+}
+
+
+ .form-control:focus {
+	 box-shadow: none;
+	 outline: none;
+	 border: 1px solid transparent !important;
+}
+ input[type="checkbox"] {
+	 accent-color: #1f153d;
+	 cursor: pointer;
+}
+ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+	 -webkit-appearance: none;
+	 margin: 0;
+}
+
+ body {
+	 margin: 0;
+	 font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+ 
